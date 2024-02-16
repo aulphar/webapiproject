@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{1AB769F3-46C5-4608-881D-5F0F1843AC11}|https">
+  <MonoDevelop.Ide.ItemProperties.RestaurantAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantAPI/Controllers/RestaurantMenuController.cs">
+    <Files>
+      <File FileName="RestaurantAPI/Models/MenuCategory.cs" Line="8" Column="3" />
+      <File FileName="RestaurantAPI/Program.cs" Line="23" Column="1" />
+      <File FileName="RestaurantAPI/Controllers/RestaurantMenuController.cs" Line="23" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LearnWebAPI" expanded="True">
+            <Node name="RestaurantAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="RestaurantMenuController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
