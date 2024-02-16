@@ -22,14 +22,7 @@ namespace RestaurantAPI.Controllers
                 FullOrder.Tax,
                 FullOrder.TotalAfterTax
             };
-
-            string filepath = @"\order.txt";
-
-            using (StreamWriter writer = new StreamWriter(filepath))
-            {
-                writer.WriteLine(receipt);
-            }
-
+            FullOrder.SaveToFile();
             return Ok(receipt);
         }
 

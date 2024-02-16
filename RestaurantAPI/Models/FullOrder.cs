@@ -47,6 +47,29 @@ public static class FullOrder
         
     }
 
-   
+    public static void SaveToFile()
+    {
+        string filepath = @"order.txt";
+
+        using (StreamWriter writer = new StreamWriter(filepath))
+        {
+            writer.WriteLine("Order: ");
+            foreach (var (itemName, item) in AllOrders)
+            {
+                writer.WriteLine($"{itemName}: {item.MenuItemDescription} - ${item.MenuItemPrice:F2}");
+            }
+            writer.WriteLine("Total before tax: ");
+            writer.WriteLine(AmountBeforeTax);
+            writer.WriteLine("Tax amount at 10%: ");
+            writer.WriteLine(Tax);
+            writer.WriteLine("Subtotal: ");
+            writer.WriteLine(TotalAfterTax);
+
+
+
+
+        }
+
+    } 
 
 }

@@ -1,1 +1,0 @@
-{ AllOrders = System.Collections.Generic.Dictionary`2[System.String,RestaurantAPI.Models.MenuItem], AmountBeforeTax = 200, Tax = 20.0, TotalAfterTax = 220.0 }

@@ -1,0 +1,8 @@
+Order: 
+Coke: Made By Coca Cola (Not Diet Coke) - $200.00
+Total before tax: 
+200
+Tax amount at 10%: 
+20.0
+Subtotal: 
+220.0
